@@ -1,0 +1,786 @@
+@media(max-width: 650px) {
+  body {
+    background-color: white;
+    left: 0;
+    margin: 0;
+    /*overflow: scroll;*/
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  .headtitle {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  h1 {
+    margin: 0px;
+  }
+  .menubotton {
+    color: black;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: right;
+    color: white;
+  }
+  .icon-close {
+    cursor: pointer;
+    padding-left: 10px;
+  }
+  header {
+    margin: 0px;
+  }
+  .mintitle {
+    background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+    padding-bottom: 2%;
+  }
+  .frontpageimg {
+    width: 100%;
+    height: 400px;
+    background-image: url(../imgs/backgroundnew.jpg);
+    background-clip: content-box;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border-bottom: 3px solid;
+    border-bottom-color: black;
+  }
+  .frontpageimg h3 {
+    margin: 0px;
+    padding-top: 10%;
+    font-size: 28px;
+    font-family: cursive;
+    padding-left: 1%;
+  }
+  footer {
+    background: url('../imgs/12.jpg') repeat left top;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 10px;
+    text-decoration: none;
+  }
+  .footercontact {}
+  .context {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-top: 20px;
+    background: #D8E0E2;
+    opacity: 0.8;
+  }
+  .context h1 {
+    padding-left: 1%;
+    font-size: 20px;
+    font-family: cursive;
+  }
+  .context p {
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 0px;
+    /*background-color: whitesmoke;*/
+  }
+  .menu {
+    left: -285px;
+    position: fixed;
+    font-size:35px;
+    height: 100%;
+    width: 285px;
+    background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  }
+  .menu ul {
+    border-top: 1px solid #636366;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu li {
+    display: block;
+    border-bottom: 1px solid #636366;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 45px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+  }
+  .menu li a:hover {
+    color:red;
+  }
+  .menu a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .menu li .activenav {
+    font-style: oblique;
+    text-decoration: underline;
+  }
+  .medium-menu {
+    display: none;
+  }
+  .gallery {
+    display: none;
+  }
+  .form {
+    background-color: beige;
+    margin: 0 auto;
+    width: 100%;
+    border-top: 3px solid black;
+    opacity: 0.8;
+  }
+  .form h2 {
+    margin: 0px;
+  }
+  .formbackground {
+    background: url(../imgs/backgroundform.jpg);
+    border-top: 3px solid #232323;
+  }
+  input, textarea {
+    padding: 15px;
+    border: 1px solid black;
+    width: 20%;
+    color: #999999;
+  }
+  .submit input {
+    width: 100px;
+    background-color: #474E69;
+  }
+  input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+  }
+  textarea {
+    width: 400px;
+    max-width: 60%;
+    line-height: 15px;
+    height: 150px;
+  }
+  .form p.submit {
+    margin: 0px;
+  }
+  .aboutmecontent {
+    width: 100%;
+    height: 30%;
+  }
+  .preview p {
+    position: relative;
+    bottom: 100px;
+    left: 0px;
+    background: white;
+    opacity: 0.8;
+    margin: 0px;
+    text-align: center;
+    padding: 20px;
+    visibility: hidden;
+  }
+  .aboutmeimg {
+    width: 100%;
+    background-clip: content-box;
+    height: 10%;
+  }
+}
+@media(min-width: 651px){
+  body {
+    background-color: white;
+    left: 0;
+    margin: 0;
+    overflow: scroll;
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  .headtitle {
+    font-size: 18px;
+    font-family: 'times new roman', sans-serif;
+    float: left;
+    padding-left: 1%;
+  }
+  h1 {
+    margin: 0px;
+  }
+  .menubotton {
+    color: black;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: right;
+    display: none;
+  }
+  .icon-close {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: none;
+  }
+  header {
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .mintitle {
+    background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+    padding-bottom: 53px;
+    display: none;
+  }
+  .frontpageimg {
+    width: 100%;
+    height: 400px;
+    background-image: url(../imgs/backgroundnew.jpg);
+    background-clip: content-box;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  .frontpageimg h3 {
+    margin: 0px;
+    padding-top: 10%;
+    font-size: 28px;
+    font-family: cursive;
+    padding-left: 1%;
+  }
+  footer {
+    background: url('../imgs/12.jpg') repeat left top;
+    display: inline-block;
+    width: 100%;
+    height:150px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 10px;
+    text-decoration: none;
+  }
+  .footerall {
+    display: inline;
+    width: 70%;
+    height: auto;
+  }
+  .container{
+    display:inline-flex;
+  }
+  .context {
+     margin:0px;
+    border-top: 20px;
+    background: #D8E0E2;
+    opacity: 0.8;
+    width:50%;
+  }
+  .context h1 {
+    padding-left: 1%;
+    font-size: 20px;
+    font-family: cursive;
+  }
+  .context p {
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 0px;
+    height: 170px;
+  }
+
+  .medium-menu {
+    display: inline-flex;
+    background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+    width: 100%;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    border: 3px solid;
+    position: fixed;
+    opacity:0.8;
+  }
+  .medium-menu .navsocialmedia{
+    position: relative;
+    width: 15%;
+    margin: 0px;
+    display:none;
+  }
+  .medium-menu ul {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    width: 100%;
+    list-style-type: none;
+  }
+  .medium-menu li {
+    text-align: center;
+  }
+  /*.medium-menu ul li:hover {
+    color: red;
+    transform: scale(1.2);
+  }*/
+  .medium-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Segoe UI Bold";
+    text-align: -webkit-center;
+    position: relative;
+  }
+  .medium-menu ul li a:hover {
+    color: red;
+    transform: scale(1.2);
+  }
+  .menu {
+    left: -285px;
+    position: fixed;
+    height: 100%;
+    width: 285px;
+    background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+    display: none;
+  }
+  .menu ul {
+    border-top: 1px solid #636366;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu li {
+    display: block;
+    border-bottom: 1px solid #636366;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 45px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+  }
+  .menu a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .gallery {
+    background-color: whitesmoke;
+    width: 100%;
+    display:none;
+  }
+  .gallery h3 {
+    padding-left: 1%;
+    margin: 0px;
+    text-align: center;
+    background-color: tan;
+    font-family: cursive;
+    font-size: 30px;
+  }
+  .thumbnail {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    text-align: center;
+  }
+  .thumbnail img {
+    height: 80px;
+    border: 4px solid #555;
+    padding: 1px;
+    margin: 0 1px 10px 1px;
+  }
+  .thumbnail img:hover {
+    border: 4px solid #00ccff;
+    cursor: pointer;
+  }
+  .preview img {
+    border: 4px solid #444;
+    padding: 1px;
+    width: 80%;
+    margin-left: 10%;
+    /*margin-right: 10%;*/
+    height: 20%;
+    float: none;
+  }
+  .menu li .activenav {
+    font-style: italic;
+  text-decoration: underline
+  }
+  .medium-menu li .activenav {
+    font-style: italic;
+  text-decoration: underline
+  }
+  .form {
+    background-color: beige;
+    margin: 0 auto;
+    width: 40%;
+    border: 3px solid beige;
+    opacity: 0.8;
+    border-radius: 2px;
+  }
+  .form h2 {
+    margin: 0px;
+  }
+  .form p.submit {
+    margin: 0px;
+  }
+  input, textarea {
+    padding: 15px;
+    border: 1px solid black;
+    width: 200px;
+    color: #999999;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  }
+  textarea {
+    width: 400px;
+    max-width: 60%;
+    line-height: 15px;
+    height: 150px;
+  }
+  input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+  }
+  .submit input {
+    width: 100px;
+    background-color: #474E69;
+  }
+  .formbackground {
+    background: url(../imgs/backgroundform.jpg);
+  }
+  .aboutmecontent {
+    width: 100%;
+    height: 30%;;
+  }
+  .preview p {
+    position: relative;
+    bottom: 100px;
+    left: 0px;
+    background: white;
+    opacity: 0.8;
+    margin: 0px;
+    text-align: center;
+    padding: 20px;
+    visibility: hidden;
+  }
+  .aboutmeimg {
+    width: 100%;
+    background-clip: content-box;
+    height: 350px;
+  }
+  .socialmedia{
+    width:30%;
+    height:100px;
+    float:left;
+    padding-top: 5%;
+    margin:0px
+  }
+  #map{
+    height:150px;
+  }
+  .personalcontact{
+    width: 30%;
+    float: right;
+    height: 100px;
+    padding-top: 4%;
+    font-size: 15px;
+  }
+  .navigation{
+    margin:0px;
+    font-size:30px;
+  }
+  }
+@media(min-width: 900px) {
+  body {
+    background-color: white;
+    left: 0;
+    margin: 0;
+    overflow: scroll;
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  .headtitle {
+    font-size: 18px;
+    font-family: 'times new roman', sans-serif;
+    float: left;
+    padding-left: 1%;
+  }
+  h1 {
+    margin: 0px;
+  }
+  .menubotton {
+    color: black;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: right;
+    display: none;
+  }
+  .icon-close {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: none;
+  }
+  header {
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .mintitle {
+    background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+    padding-bottom: 53px;
+    display: none;
+  }
+  .frontpageimg {
+    width: 100%;
+    height: 400px;
+    background-image: url(../imgs/backgroundnew.jpg);
+    background-clip: content-box;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  .frontpageimg h3 {
+    margin: 0px;
+    padding-top: 10%;
+    font-size: 28px;
+    font-family: cursive;
+    padding-left: 1%;
+  }
+  footer {
+    background: url('../imgs/12.jpg') repeat left top;
+    display: inline-block;
+    width: 100%;
+    height:150px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 10px;
+    text-decoration: none;
+  }
+  .footerall {
+    display: inline;
+    width: 70%;
+    height: auto;
+  }
+  .context {
+    margin-top: 0px;
+    margin-bottom: 1%;;
+    margin-left: 0px;
+    border-top: 20px;
+    background: #D8E0E2;
+    opacity: 0.8;
+    border:3px solid black;
+  }
+  .context h1 {
+    padding-left: 1%;
+    font-size: 20px;
+    font-family: cursive;
+  }
+  .context p {
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 0px;
+    /*background-color: whitesmoke;*/
+  }
+  .medium-menu {
+    display: inline-flex;
+    background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+    width: 100%;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    border: 3px solid;
+    position: fixed;
+    opacity:0.8;
+  }
+  .medium-menu ul {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    width: 100%;
+    list-style-type: none;
+  }
+  .medium-menu li {
+    text-align: center;
+  }
+  /*.medium-menu ul li:hover {
+    color: red;
+    transform: scale(1.2);
+  }*/
+  .medium-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Segoe UI Bold";
+    text-align: -webkit-center;
+    position: relative;
+  }
+  .medium-menu ul li a:hover {
+    color: red;
+    transform: scale(1.2);
+  }
+  .medium-menu .navsocialmedia{
+    position: relative;
+    width: 15%;
+    margin: 0px;
+    display: flex;
+  }
+  .menu {
+    left: -285px;
+    position: fixed;
+    height: 100%;
+    width: 285px;
+    background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+    display: none;
+  }
+  .menu ul {
+    border-top: 1px solid #636366;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu li {
+    display: block;
+    border-bottom: 1px solid #636366;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 45px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+  }
+  .menu a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .gallery {
+    background-color: whitesmoke;
+    width: 100%;
+    display:inline-block;
+  }
+  .gallery h3 {
+    padding-left: 1%;
+    margin: 0px;
+    text-align: center;
+    background-color: tan;
+    font-family: cursive;
+    font-size: 30px;
+  }
+  .thumbnail {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    text-align: center;
+  }
+  .thumbnail img {
+    height: 80px;
+    border: 4px solid #555;
+    padding: 1px;
+    margin: 0 1px 10px 1px;
+  }
+  .thumbnail img:hover {
+    border: 4px solid #00ccff;
+    cursor: pointer;
+  }
+  .preview img {
+    border: 4px solid #444;
+    padding: 1px;
+    width: 80%;
+    margin-left: 10%;
+    /*margin-right: 10%;*/
+    height: 20%;
+    float: none;
+  }
+  .menu li .activenav {
+    font-style: italic;
+  text-decoration: underline
+  }
+  .medium-menu li .activenav {
+    font-style: italic;
+  text-decoration: underline
+  }
+  .form {
+    background-color: beige;
+    margin: 0 auto;
+    width: 40%;
+    border: 3px solid beige;
+    opacity: 0.8;
+    border-radius: 2px;
+  }
+  .form h2 {
+    margin: 0px;
+  }
+  .form p.submit {
+    margin: 0px;
+  }
+  input, textarea {
+    padding: 15px;
+    border: 1px solid black;
+    width: 200px;
+    color: #999999;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  }
+  textarea {
+    width: 400px;
+    max-width: 60%;
+    line-height: 15px;
+    height: 150px;
+  }
+  input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+  }
+  .submit input {
+    width: 100px;
+    background-color: #474E69;
+  }
+  .formbackground {
+    background: url(../imgs/backgroundform.jpg);
+  }
+  .aboutmecontent {
+    width: 100%;
+    height: 30%;;
+  }
+  .preview p {
+    position: relative;
+    bottom: 100px;
+    left: 0px;
+    background: white;
+    opacity: 0.8;
+    margin: 0px;
+    text-align: center;
+    padding: 20px;
+    visibility: hidden;
+  }
+  .aboutmeimg {
+    width: 100%;
+    background-clip: content-box;
+    height: 10%;
+  }
+  .socialmedia{
+    width:30%;
+    height:100px;
+    float:left;
+    padding-top: 4%;
+    margin:0px
+  }
+  #map{
+    height:150px;
+  }
+  .personalcontact{
+    width: 30%;
+    float: right;
+    height: 100px;
+    padding-top: 5%;
+    font-size: 15px;
+  }
+  .navigation{
+    margin:0px;
+    font-size:30px;
+  }
+}
